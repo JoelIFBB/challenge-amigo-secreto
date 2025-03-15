@@ -9,6 +9,7 @@ function agregarAmigo(){
     }
     listaAmigos.push(amigo.value);
     ulListaAmigos.innerHTML += `<h1>${inputAmigo.value}</h1>`;
+    limpiarInput()
 }
 function sortearAmigo(){
     
